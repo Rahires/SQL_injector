@@ -29,15 +29,21 @@ Installation
 Clone this repository to your local machine:
 git clone
 https://github.com/Rahires/SQL_injector.git
+
 cd SQL_Injector
 
 Make both scripts executable:
+
 chmod +x SQL_INJECTOR_GUI.sh
+
 chmod +x SQL_INJECTOR.sh
+
 Usage
+
 To run the script with the Zenity GUI:
 
 ./SQL_INJECTOR_GUI.sh
+
 A GUI prompt will ask for the target URL.
 
 After entering the URL, the script will run SQLMap in a new terminal, performing SQL injection testing.
